@@ -3,6 +3,7 @@ import * as navbar from "./navbar/index.js";
 import * as sidebar from "./sidebar/index.js";
 
 export default hopeTheme({
+    // 基本配置
     hostname: "https://myyerrol.github.io/ysyx-website",
     author: {
         name: "myyerrol",
@@ -22,7 +23,7 @@ export default hopeTheme({
             displayFooter: true
         }
     },
-
+    // 布局配置
     navbarIcon: true,
     navbarLayout: {
         left: ["Brand"],
@@ -49,9 +50,6 @@ export default hopeTheme({
 
 
   plugins: {
-    blog: {
-      autoExcerpt: true,
-    },
 
     // If you don't need comment feature, you can remove following option
     // The following config is for demo ONLY, if you need comment feature, please generate and use your own config, see comment plugin documentation for details.
